@@ -122,7 +122,7 @@ value =6.50
 data.loc[(data['county'] == county) & (data['year'] == year), var] = value 
 print('Finished')
 
-#### Check data which do not have units ####
+#### Check variables which do not have units ####
 
 p.check_missing_unit()
 
@@ -134,7 +134,7 @@ p.plot_all()
 
 p.plot('Linwu county', 'deathrate')
 
-#### Show all the data in county that have outliers ####
+#### Show all the data in county that has outliers ####
 
 p.show_data() 
 
