@@ -1,2 +1,2 @@
 # China-Gazetteer-Project-at-Harvard-University
-Click the link that is in the middle and you should see all the information not just code.
+Click the links that are in the middle and you should see all the description and information not just the code.
