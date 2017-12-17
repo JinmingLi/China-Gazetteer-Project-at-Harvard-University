@@ -108,8 +108,8 @@ class Check(object):
 
 date = 1030
 name = 'Jinming Li'
+p = Check('C:/Users/.../data_entry_{0}_{1}.xlsx'.format(date, name))
 
-data = pd.read_excel('C:/Users/Jinming Li/Desktop/data_entry_{0}_{1}.xlsx'.format(date, name))
 
 #### Check data type error  ####
 
@@ -145,3 +145,4 @@ p.correct_data('Linwu county', '1985', 'deathrate', '6.50')
 #### Export the data file after data checking process ####
 
 p.export_data('C/Users/Jinming Li/Desktop/...')
+
